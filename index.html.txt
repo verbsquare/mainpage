@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verb Square</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #111;
+      color: #fff;
+    }
+    header img {
+      height: 40px;
+      margin-right: 1rem;
+    }
+    .hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      color: white;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #4e54c8;
+      margin-bottom: 1rem;
+    }
+    .contact a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #4e54c8;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Verb Square Logo" />
+    <h1>Verb Square</h1>
+  </header>
+
+  <section class="hero">
+    <h1>Crafting Memorable and Seamless Events</h1>
+    <p>End-to-end solutions for Events and Marketing</p>
+  </section>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Live and Virtual Event Management</li>
+      <li>Social Media Handling</li>
+      <li>DJ & Artist Curation</li>
+      <li>Media Coverage</li>
+      <li>Procurement Support</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Events We Manage</h2>
+    <ul>
+      <li>Corporate Events</li>
+      <li>Marathons & Outdoor Activities</li>
+      <li>Marketing & Brand Activation</li>
+      <li>Fundraisers</li>
+      <li>Virtual Events</li>
+    </ul>
+  </section>
+
+  <section class="section contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@verbsquare.in">info@verbsquare.in</a></p>
+    <p>Phone: <a href="tel:+918217395367">+91 821-739-5367</a></p>
+    <p>Instagram: <a href="https://instagram.com/verbsquare" target="_blank">@verbsquare</a></p>
+  </section>
+
+  <footer>
+    © 2025 Verb Square. All rights reserved.
+  </footer>
+
+</body>
+</html>
